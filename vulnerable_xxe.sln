@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vulnerable_xxe", "vulnerable_xxe\vulnerable_xxe.csproj", "{B93D7D9C-26BD-4B42-9909-752EF3EB8663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xxe_poc", "xxe_0oc\xxe_poc.csproj", "{7D8CF555-61CB-40A2-B2D1-F4540E6E18A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D8CF555-61CB-40A2-B2D1-F4540E6E18A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8CF555-61CB-40A2-B2D1-F4540E6E18A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8CF555-61CB-40A2-B2D1-F4540E6E18A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8CF555-61CB-40A2-B2D1-F4540E6E18A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93D7D9C-26BD-4B42-9909-752EF3EB8663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93D7D9C-26BD-4B42-9909-752EF3EB8663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93D7D9C-26BD-4B42-9909-752EF3EB8663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93D7D9C-26BD-4B42-9909-752EF3EB8663}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = vulnerable_xxe\vulnerable_xxe.csproj
+	EndGlobalSection
+EndGlobal
